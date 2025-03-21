@@ -1,0 +1,68 @@
+.recent-jobs {
+    background-color: #ffffff;
+    width: 330px; /* Fixed width for each job card */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px; /* Adds padding inside the card */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content inside */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    cursor: pointer;
+}
+
+.recent-jobs:hover {
+    transform: translateY(-5px); /* Lifts the card slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhances shadow on hover */
+}
+
+.recent-jobs img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Adds spacing below the image */
+}
+
+.recent-jobs h1 {
+    font-size: 1.5rem; /* Larger font size for the job title */
+    margin-bottom: 10px; /* Adds spacing below the title */
+}
+
+.recent-jobs p {
+    font-size: 1rem; /* Standard font size for the job description */
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.5; /* Improves readability */
+    margin-bottom: 15px; /* Adds spacing below the description */
+}
+
+.recent-jobs section {
+    display: flex;
+    align-items: center; /* Centers the location icon and text */
+    margin-bottom: 15px; /* Adds spacing below the location */
+}
+
+.recent-jobs section img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px; /* Adds spacing between the icon and text */
+}
+
+.recent-jobs button {
+    background-color: #212121;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.recent-jobs button:hover {
+    background-color: #FFD700;
+    color: #212121;
+}
